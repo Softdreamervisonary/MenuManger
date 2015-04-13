@@ -1,0 +1,225 @@
+﻿<link href="css/foder.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+@{
+    ViewBag.Title = "Home Page";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+                To learn more about ASP.NET MVC visit
+                <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
+                The page features <mark>videos, tutorials, and samples</mark> to help you get the most from ASP.NET MVC.
+                If you have any questions about ASP.NET MVC visit
+                <a href="http://forums.asp.net/1146.aspx/1?MVC" title="ASP.NET MVC Forum">our forums</a>.
+            </p>
+        </div>
+    </section>
+}
+<script type="text/javascript">
+  
+</script>
+
+<center  ><a href="#">新增主目錄</a>@Html.ActionLink("AddMenu", "AddMenu", null, new { id = 234 }, new { @class = "modal" })</center>
+<div class="foder">
+	<ul class="ful">
+		<li>
+			<div class="fla">
+				<span class="close btn" id="id1"></span> <span class="pack btn"
+					id="id2"></span> <span class="ftext">  <input type="text" value ="0" style="width:10px;"  >後備歷史檔查詢</span> <input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#"  rel="add{{num}}" data-sidx="0"  data-para2="{{somepara}}">add</a> <a href="~/home/false?sidx=0">enable</a>
+			</div>
+			<ul class="ful " id="id3">
+				<li>
+					<div class="fla">
+						<span class="close btn"></span> <span class="pack btn"></span> <span
+							class="ftext"> <input type="text" value ="0" style="width:10px;"  >第一章</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+					</div>
+					<ul class="ful " id="id3">
+						<li>
+							<div class="fla">
+								<span class="close btn"></span> <span class="pack btn"></span> <span
+									class="ftext"> <input type="text" value ="0" style="width:10px;"  >第一节</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+							</div>
+						</li>
+						<li>
+							<div class="fla">
+								<span class="close btn"></span> <span class="pack btn"></span> <span
+									class="ftext"> <input type="text" value ="0" style="width:10px;"  >第二节</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<span class="close btn"></span> <span class="pack btn"></span> <span
+									class="ftext"> <input type="text" value ="0" style="width:10px;"  >第三节</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+							</div>
+						</li>
+					</ul></li>
+				<li>
+					<div class="fla">
+						<span class="open btn"></span> <span class="pack btn"></span> <span
+							class="ftext"> <input type="text" value ="0" style="width:10px;"  >第二章</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+					</div>
+					<ul class="ful none" id="id3">
+						<li>
+							<div class="fla">
+								<span class="close btn"></span> <span class="pack btn"></span> <span
+									class="ftext"> <input type="text" value ="0" style="width:10px;"  >第一节</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+							</div>
+						</li>
+						<li>
+							<div class="fla">
+								<span class="close btn"></span> <span class="pack btn"></span> <span
+									class="ftext"> <input type="text" value ="0" style="width:10px;"  >第二节</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<span class="close btn"></span> <span class="pack btn"></span> <span
+									class="ftext"> <input type="text" value ="0" style="width:10px;"  >第三节</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<div class="fla">
+						<span class="open btn"></span> <span class="pack btn"></span> <span
+							class="ftext"> <input type="text" value ="0" style="width:10px;"  >第三章</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+					</div>
+					<ul class="ful none" id="id3">
+						<li>
+							<div class="fla">
+								<span class="close btn"></span> <span class="pack btn"></span> <span
+									class="ftext">第一节</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+							</div>
+						</li>
+						<li>
+							<div class="fla">
+								<span class="close btn"></span> <span class="pack btn"></span> <span
+									class="ftext">第二节</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<span class="close btn"></span> <span class="pack btn"></span> <span
+									class="ftext">第三节</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+							</div>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+    <ul class="ful">
+		<li>
+			<div class="fla">
+				<span class="close btn" id="id1"></span> <span class="pack btn"
+					id="id2"></span> <span class="ftext">  <input type="text" value ="0" style="width:10px;"  >後備歷史檔查詢</span> <input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+			</div>
+			<ul class="ful " id="id3">
+				<li>
+					<div class="fla">
+						<span class="close btn"></span> <span class="pack btn"></span> <span
+							class="ftext"> <input type="text" value ="0" style="width:10px;"  >第一章</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+					</div>
+					<ul class="ful " id="id3">
+						<li>
+							<div class="fla">
+								<span class="close btn"></span> <span class="pack btn"></span> <span
+									class="ftext"> <input type="text" value ="0" style="width:10px;"  >第一节</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+							</div>
+						</li>
+						<li>
+							<div class="fla">
+								<span class="close btn"></span> <span class="pack btn"></span> <span
+									class="ftext"> <input type="text" value ="0" style="width:10px;"  >第二节</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<span class="close btn"></span> <span class="pack btn"></span> <span
+									class="ftext"> <input type="text" value ="0" style="width:10px;"  >第三节</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+							</div>
+						</li>
+					</ul></li>
+				<li>
+					<div class="fla">
+						<span class="open btn"></span> <span class="pack btn"></span> <span
+							class="ftext"> <input type="text" value ="0" style="width:10px;"  >第二章</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+					</div>
+					<ul class="ful none" id="id3">
+						<li>
+							<div class="fla">
+								<span class="close btn"></span> <span class="pack btn"></span> <span
+									class="ftext"> <input type="text" value ="0" style="width:10px;"  >第一节</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+							</div>
+						</li>
+						<li>
+							<div class="fla">
+								<span class="close btn"></span> <span class="pack btn"></span> <span
+									class="ftext"> <input type="text" value ="0" style="width:10px;"  >第二节</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<span class="close btn"></span> <span class="pack btn"></span> <span
+									class="ftext"> <input type="text" value ="0" style="width:10px;"  >第三节</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<div class="fla">
+						<span class="open btn"></span> <span class="pack btn"></span> <span
+							class="ftext"> <input type="text" value ="0" style="width:10px;"  >第三章</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+					</div>
+					<ul class="ful none" id="id3">
+						<li>
+							<div class="fla">
+								<span class="close btn"></span> <span class="pack btn"></span> <span
+									class="ftext">第一节</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+							</div>
+						</li>
+						<li>
+							<div class="fla">
+								<span class="close btn"></span> <span class="pack btn"></span> <span
+									class="ftext">第二节</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<span class="close btn"></span> <span class="pack btn"></span> <span
+									class="ftext">第三节</span><input type="text" value ="Index,RMS050100" style="width:150px;"  ><a href="#">add</a> <a href="#">enable</a>
+							</div>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<div id="my-dialog"></div>
+
+<script type="text/javascript">
+    $(function () {
+        $('#my-dialog').dialog({
+            autoOpen: false,
+            width: 400,
+            resizable: false,
+            modal: true
+        });
+
+        $(".add").click(function () {
+            $('#my-dialog').load(this.href, function () {
+                $(this).dialog('open');
+            });
+            return false;
+        });
+    });
+
+
+</script>
